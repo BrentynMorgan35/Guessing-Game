@@ -1,0 +1,22 @@
+﻿<Window x:Class="Wilsons_challenge_Blinky.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wilsons_challenge_Blinky"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <TextBox x:Name="textboxEnterNumber" HorizontalAlignment="Left" Margin="30,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Height="29"/>
+        <Label Content="Guess the number" HorizontalAlignment="Left" Margin="38,35,0,0" VerticalAlignment="Top" Height="26" Width="111"/>
+        <Button x:Name="buttonGo" Content="Button" HorizontalAlignment="Left" Margin="30,139,0,0" VerticalAlignment="Top" Click="buttonGo_Click"/>
+        <Label x:Name="HighLowWin" Content="Label" HorizontalAlignment="Left" Margin="190,90,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="player1print" Content="Label" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="364" Width="117"/>
+        <Label x:Name="player3print" Content="Label" HorizontalAlignment="Left" Margin="651,10,0,0" VerticalAlignment="Top" Height="364" Width="117"/>
+        <Label x:Name="player2print" Content="Label" HorizontalAlignment="Left" Margin="492,10,0,0" VerticalAlignment="Top" Height="364" Width="117"/>
+        <CheckBox x:Name="checkBoxEasy" Content="Easy Difficulty" HorizontalAlignment="Left" Margin="38,203,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxMedium" Content="Intermediate Difficulty" HorizontalAlignment="Left" Margin="38,227,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxHard" Content="Adult Difficulty" HorizontalAlignment="Left" Margin="38,247,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
