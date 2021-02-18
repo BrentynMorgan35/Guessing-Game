@@ -20,22 +20,27 @@ namespace Wilsons_challenge_Blinky
     public partial class MainWindow : Window
     {
         public bool pressedOnce;
-        Game game = new Game();
+        Game game;
+        string[] x;
 
         public MainWindow()
         {
             InitializeComponent();
             pressedOnce = false;
+            x = new string[3];
+
         }
 
-        public void buttonGo_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
+          
 
             if (pressedOnce == false)
             {
+                game = new Game();
                 if (checkBoxEasy.IsChecked == true)
                 {
-                    game.RandomNum(1,11);
+                    game.RandomNum(1, 11);
                     pressedOnce = true;
                 }
                 else if (checkBoxMedium.IsChecked == true)
@@ -47,14 +52,64 @@ namespace Wilsons_challenge_Blinky
                 {
                     game.RandomNum(1, 10001);
                     pressedOnce = true;
-                }   
+                }
+            }
+
+                game.Guess(int.Parse(p1.Text), int.Parse(p2.Text), int.Parse(p3.Text));
+
+                if (int.Parse(p1.Text)<game.randomNum)
+                {
+                    p1t.Content = "Higher";
+                  
+                }else if (int.Parse(p1.Text) > game.randomNum)
+                {
+                    p1t.Content = "Lower";
+                }
+                else if (int.Parse(p1.Text) == game.randomNum)
+                {
+                    p1t.Content = "Correct";
+                    x = game.GameEnd();
+                player1print.Content = x[0];
+                player2print.Content = x[1];
+                player3print.Content = x[2];
+                btn.IsEnabled = false;
+            }
 
 
+                if (int.Parse(p2.Text) < game.randomNum)
+                {
+                    p2t.Content = "Higher";
+                }
+                else if (int.Parse(p2.Text) > game.randomNum)
+                {
+                    p2t.Content = "Lower";
+                }
+                else if (int.Parse(p2.Text) == game.randomNum)
+                {
+                    p2t.Content = "Correct";
+                    x = game.GameEnd();
+                player1print.Content = x[0];
+                player2print.Content = x[1];
+                player3print.Content = x[2];
+                btn.IsEnabled = false;
+            }
 
-
-
-
-
+                if (int.Parse(p3.Text) < game.randomNum)
+                {
+                    p3t.Content = "Higher";
+                }
+                else if (int.Parse(p3.Text) > game.randomNum)
+                {
+                    p3t.Content = "Lower";
+                }
+                else if (int.Parse(p3.Text) == game.randomNum)
+                {
+                    p3t.Content = "Correct";
+                    x = game.GameEnd();
+                player1print.Content = x[0];
+                player2print.Content = x[1];
+                player3print.Content = x[2];
+                btn.IsEnabled = false;
             }
 
 
@@ -67,11 +122,24 @@ namespace Wilsons_challenge_Blinky
 
 
 
+            
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
         }
+
     }
 }
