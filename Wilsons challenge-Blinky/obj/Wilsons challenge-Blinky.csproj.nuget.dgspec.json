@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maconrm180\\Documents\\GitHub\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj": {}
+    "C:\\Users\\maconrm180\\Documents\\Matthew\\Guessing-Game\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maconrm180\\Documents\\GitHub\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj": {
+    "C:\\Users\\maconrm180\\Documents\\Matthew\\Guessing-Game\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maconrm180\\Documents\\GitHub\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj",
+        "projectUniqueName": "C:\\Users\\maconrm180\\Documents\\Matthew\\Guessing-Game\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj",
         "projectName": "Wilsons challenge-Blinky",
-        "projectPath": "C:\\Users\\maconrm180\\Documents\\GitHub\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj",
+        "projectPath": "C:\\Users\\maconrm180\\Documents\\Matthew\\Guessing-Game\\Wilsons challenge-Blinky\\Wilsons challenge-Blinky.csproj",
         "packagesPath": "C:\\Users\\maconrm180\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maconrm180\\Documents\\GitHub\\Wilsons challenge-Blinky\\obj\\",
+        "outputPath": "C:\\Users\\maconrm180\\Documents\\Matthew\\Guessing-Game\\Wilsons challenge-Blinky\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

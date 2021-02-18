@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\
+C:\Users\maconrm180\Documents\Matthew\Guessing-Game\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\
 Wilsons_challenge_Blinky
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\App.xaml
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\maconrm180\Documents\Matthew\Guessing-Game\Wilsons challenge-Blinky\App.xaml
 11151548125
 
 71870095006
 1921654412462
 MainWindow.xaml;
 
-True
+False
 
