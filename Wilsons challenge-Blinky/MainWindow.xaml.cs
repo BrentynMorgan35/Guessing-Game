@@ -19,13 +19,8 @@ namespace Wilsons_challenge_Blinky
 {
     public partial class MainWindow : Window
     {
-        private readonly Random ran = new Random();
         public bool pressedOnce;
         Game game = new Game();
-        int x;
-        Student student1 = new Student();
-        Student student2 = new Student();
-        Student student3 = new Student();
 
         public MainWindow()
         {
@@ -38,25 +33,21 @@ namespace Wilsons_challenge_Blinky
 
             if (pressedOnce == false)
             {
-                
-
                 if (checkBoxEasy.IsChecked == true)
                 {
-                    string textboxEnterNumber.Text = x;
-                    x = ran.Next(1, 11);
+                    game.RandomNum(1,11);
                     pressedOnce = true;
                 }
                 else if (checkBoxMedium.IsChecked == true)
                 {
-                    x = ran.Next(1, 101);
+                    game.RandomNum(1, 101);
                     pressedOnce = true;
                 }
                 else if (checkBoxHard.IsChecked == true)
                 {
-                    x = ran.Next(1, 10001);
+                    game.RandomNum(1, 10001);
                     pressedOnce = true;
-                }
-
+                }   
 
 
 
@@ -84,4 +75,3 @@ namespace Wilsons_challenge_Blinky
         }
     }
 }
-

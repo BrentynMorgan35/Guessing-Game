@@ -8,7 +8,7 @@ namespace Wilsons_challenge_Blinky
     {
         public ArrayList scores = new ArrayList();
 
-        public void AddScore(int x) //hey big bread
+        public void AddScore(int x) 
         {
             scores.Add(x);
 

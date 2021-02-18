@@ -1,0 +1,19 @@
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\bin\Debug\netcoreapp3.1\Wilsons challenge-Blinky.exe
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\bin\Debug\netcoreapp3.1\Wilsons challenge-Blinky.deps.json
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\bin\Debug\netcoreapp3.1\Wilsons challenge-Blinky.runtimeconfig.json
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\bin\Debug\netcoreapp3.1\Wilsons challenge-Blinky.runtimeconfig.dev.json
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\bin\Debug\netcoreapp3.1\Wilsons challenge-Blinky.dll
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\bin\Debug\netcoreapp3.1\Wilsons challenge-Blinky.pdb
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.csprojAssemblyReference.cache
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky_MarkupCompile.cache
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky_MarkupCompile.lref
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.g.resources
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.AssemblyInfoInputs.cache
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.AssemblyInfo.cs
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.csproj.CoreCompileInputs.cache
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.dll
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.pdb
+C:\Users\maconrm180\Documents\GitHub\Wilsons challenge-Blinky\obj\Debug\netcoreapp3.1\Wilsons challenge-Blinky.genruntimeconfig.cache
